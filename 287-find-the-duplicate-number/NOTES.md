@@ -1,4 +1,4 @@
-​// 2 Loops
+// 2 Loops
     public static int findDuplicate_2loops(int[] nums) {
         int len = nums.length;
         for (int i = 0; i < len; i++) {
