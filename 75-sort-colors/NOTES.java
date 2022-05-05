@@ -13,7 +13,7 @@ public void sortColors(int A[])
 int n=A.length;
 int j = 0;  // front end for 0's
 int k = n-1;  // rear end for 2's
-for (int i=0; i <= k; i++)   /* swap A[i] annd A[j++] */
+for (int i=0; i <= k; i++)   // swap A[i] annd A[j++]
 {
 if (A[i] == 0)
 {
@@ -28,7 +28,7 @@ int t=A[i];
 A[i]=A[k];
 A[k]=t;
 i--;
-k--;   /* to deccrement the pointer so that the next 2 can be placed */
+k--;   // to deccrement the pointer so that the next 2 can be placed
 }
 }
 
