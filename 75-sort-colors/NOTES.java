@@ -32,4 +32,3 @@ k--;   // to deccrement the pointer so that the next 2 can be placed
 }
 }
 }
-
